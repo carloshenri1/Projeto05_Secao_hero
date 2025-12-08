@@ -8,10 +8,11 @@
 
 body{
     font-family: 'Roboto', 'Segoe UI', sans-serif; /* Fonte moderna e legível */
-    background-color:#f8f9fa; /* Fundo muito claro */ ;
+    background-color:#366fa8 ;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+
     
 }
 
@@ -25,7 +26,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/assets/06-57-07-12_512.webp  );
+    background-image: url(../assets/06-57-07-12_512.webp );
     /*Define uma altura minima para a seção, igual a altura da janela de visualização * Isso faz com que a seção Hero ocupe a tela inteira verticalmente*/
     min-height: 100vh;
     background-size: cover;
@@ -63,7 +64,6 @@ body{
 /*5. ESTILOS DO BOTÃO  (CALL-TO-ACTION) */
 .hero-button{
     /*estilos visuais do botão */
-    background-color: #5d8296; /*Cor azul*/
     color: #ffff;
     border-radius: 5px; /*cantos arredondados*/
     text-decoration: none; /*remove os sublinhados*/
